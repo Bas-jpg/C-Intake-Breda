@@ -19,3 +19,5 @@ int main()
         window.display();
     }
 }
+
+// comentaar om te testen of dingen gecommit worden vanout github desktop
