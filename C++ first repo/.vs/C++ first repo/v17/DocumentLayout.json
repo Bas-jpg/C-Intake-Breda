@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1343DC69-C92D-400D-B8F4-4EACFE9C2FFC}|C\u002B\u002B first repo\\C\u002B\u002B first repo.vcxproj|C:\\Users\\bas\\OneDrive\\Documents\\GitHub\\C-Intake-Breda\\C\u002B\u002B first repo\\C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1343DC69-C92D-400D-B8F4-4EACFE9C2FFC}|C\u002B\u002B first repo\\C\u002B\u002B first repo.vcxproj|solutionrelative:C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1343DC69-C92D-400D-B8F4-4EACFE9C2FFC}|C\u002B\u002B first repo\\C\u002B\u002B first repo.vcxproj|C:\\Users\\bas\\OneDrive\\Documents\\GitHub\\C-Intake-Breda\\C\u002B\u002B first repo\\C\u002B\u002B first repo\\OpenGL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1343DC69-C92D-400D-B8F4-4EACFE9C2FFC}|C\u002B\u002B first repo\\C\u002B\u002B first repo.vcxproj|solutionrelative:C\u002B\u002B first repo\\OpenGL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OpenGL.cpp",
+              "DocumentMoniker": "C:\\Users\\bas\\OneDrive\\Documents\\GitHub\\C-Intake-Breda\\C\u002B\u002B first repo\\C\u002B\u002B first repo\\OpenGL.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B first repo\\OpenGL.cpp",
+              "ToolTip": "C:\\Users\\bas\\OneDrive\\Documents\\GitHub\\C-Intake-Breda\\C\u002B\u002B first repo\\C\u002B\u002B first repo\\OpenGL.cpp",
+              "RelativeToolTip": "C\u002B\u002B first repo\\OpenGL.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-22T14:53:19.196Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp",
               "ToolTip": "C:\\Users\\bas\\OneDrive\\Documents\\GitHub\\C-Intake-Breda\\C\u002B\u002B first repo\\C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp",
               "RelativeToolTip": "C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-24T09:58:52.599Z",
               "EditorCaption": ""
