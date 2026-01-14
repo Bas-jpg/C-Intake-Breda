@@ -5,7 +5,12 @@
     "\\C++ first repo\\C++ first repo",
     "\\OpenGL",
     "\\OpenGL\\GLFW",
-    "\\OpenGL\\lib"
+    "\\OpenGL\\lib",
+    "\\SFML-3.0.2",
+    "\\SFML-3.0.2\\examples",
+    "\\SFML-3.0.2\\examples\\event_handling",
+    "\\SFML-3.0.2\\examples\\island",
+    "\\SFML-3.0.2\\lib"
   ],
   "SelectedNode": "\\C++ first repo\\C++ first repo.sln",
   "PreviewInSolutionExplorer": false
