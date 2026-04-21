@@ -1,62 +1,73 @@
 ﻿#include <SFML/Graphics.hpp>
+#include <iostream>
+#include <SFML/Window/Keyboard.hpp>
+
+using namespace sf;
+using namespace std;
+
+class PlayerClass
+{
+    public:
+        PlayerClass()
+        {
+			cout << "Player created!" << endl;
+        }
+};
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode({ 200, 200 }), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    // variables
+    bool playerJump = false, playerLeft = false, playerRight = false;
+    
+	// create the main window
+    RenderWindow window(VideoMode({ 960, 540 }), "C++ first repo", Style::Titlebar | Style::Close);
 
+	// create a circle shape and set its properties
+    CircleShape shape(200.f);
+    shape.setFillColor(Color::Red);
+    shape.setOutlineThickness(10.f);
+	shape.setOutlineColor(Color::Green);
+
+	// create a rectangle shape and set its properties
+    RectangleShape rectangle(Vector2f(120.f, 50.f));
+    rectangle.setFillColor(Color::Yellow);
+    rectangle.setPosition(Vector2f(0, 0));
+    rectangle.setPosition(Vector2f(20, 20));
+
+	PlayerClass player;
+
+	// start the game loop
     while (window.isOpen())
     {
+
+		// event handling
         while (const std::optional event = window.pollEvent())
         {
-            if (event->is<sf::Event::Closed>())
-                window.close();
+			// close window event
+            if (event->is<Event::Closed>())
+				window.close();
+
+            // input handling
+            if (Keyboard::isKeyPressed(Keyboard::Scancode::Up))
+                playerJump = true;
+            if (Keyboard::isKeyPressed(Keyboard::Scancode::Left))
+                playerLeft = true;
+            if (Keyboard::isKeyPressed(Keyboard::Scancode::Right))
+                playerRight = true;
+            if(!(Keyboard::isKeyPressed(Keyboard::Scancode::Up)))
+				playerJump = false;
+            if (!(Keyboard::isKeyPressed(Keyboard::Scancode::Left)))
+                playerLeft = false;
+            if (!(Keyboard::isKeyPressed(Keyboard::Scancode::Right)))
+                playerRight = false;
         }
 
+
+        
+        // update and display the shapes
         window.clear();
+        window.draw(rectangle);
         window.draw(shape);
         window.display();
     }
 }
-
-//// comentaar om te testen of dingen gecommit worden vanout github desktop
-
-
-//#include <glfw3.h>
-//
-//int main(void)
-//{
-//    GLFWwindow* window;
-//
-//    /* Initialize the library */
-//    if (!glfwInit())
-//        return -1;
-//
-//    /* Create a windowed mode window and its OpenGL context */
-//    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
-//    if (!window)
-//    {
-//        glfwTerminate();
-//        return -1;
-//    }
-//
-//    /* Make the window's context current */
-//    glfwMakeContextCurrent(window);
-//
-//    /* Loop until the user closes the window */
-//    while (!glfwWindowShouldClose(window))
-//    {
-//        /* Render here */
-//        glClear(GL_COLOR_BUFFER_BIT);
-//
-//        /* Swap front and back buffers */
-//        glfwSwapBuffers(window);
-//
-//        /* Poll for and process events */
-//        glfwPollEvents();
-//    }
-//
-//    glfwTerminate();
-//    return 0;
-//}
