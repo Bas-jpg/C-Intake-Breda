@@ -5,6 +5,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{1343DC69-C92D-400D-B8F4-4EACFE9C2FFC}|C\u002B\u002B first repo\\C\u002B\u002B first repo.vcxproj|C:\\Users\\bas\\OneDrive\\Documents\\GitHub\\C-Intake-Breda\\C\u002B\u002B first repo\\C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1343DC69-C92D-400D-B8F4-4EACFE9C2FFC}|C\u002B\u002B first repo\\C\u002B\u002B first repo.vcxproj|solutionrelative:C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1343DC69-C92D-400D-B8F4-4EACFE9C2FFC}|C\u002B\u002B first repo\\C\u002B\u002B first repo.vcxproj|C:\\USERS\\BAS\\ONEDRIVE\\DOCUMENTS\\GITHUB\\C-INTAKE-BREDA\\SFML-3.0.2\\INCLUDE\\SFML\\GRAPHICS\\RECT.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +20,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rect.hpp",
+              "DocumentMoniker": "C:\\Users\\bas\\OneDrive\\Documents\\GitHub\\C-Intake-Breda\\SFML-3.0.2\\include\\SFML\\Graphics\\Rect.hpp",
+              "RelativeDocumentMoniker": "..\\SFML-3.0.2\\include\\SFML\\Graphics\\Rect.hpp",
+              "ToolTip": "C:\\Users\\bas\\OneDrive\\Documents\\GitHub\\C-Intake-Breda\\SFML-3.0.2\\include\\SFML\\Graphics\\Rect.hpp",
+              "RelativeToolTip": "..\\SFML-3.0.2\\include\\SFML\\Graphics\\Rect.hpp",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAUwMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-25T17:20:05.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.CppCommon.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppCommon.targets",
+              "ViewState": "AgIAAAQDAAAAAAAAAADgvxIDAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-23T19:02:55.11Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +55,7 @@
               "RelativeDocumentMoniker": "C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp",
               "ToolTip": "C:\\Users\\bas\\OneDrive\\Documents\\GitHub\\C-Intake-Breda\\C\u002B\u002B first repo\\C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp",
               "RelativeToolTip": "C\u002B\u002B first repo\\C\u002B\u002B first repo.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAswD8AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-02T08:18:04.968Z",
               "EditorCaption": ""
